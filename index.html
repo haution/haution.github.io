@@ -11,7 +11,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-35589180-1');
+  gtag('config', 'UA-35589180-1', {
+    'anonymize_ip': true,
+    'client_storage': 'none'
+});
+
 </script>
 <script src="https://ipmeta.io/plugin.js"></script>
 <script>
